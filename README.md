@@ -1,1 +1,1 @@
-# handwerk-plattform
+# handwerk-plattform core module
