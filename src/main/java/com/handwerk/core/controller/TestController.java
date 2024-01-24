@@ -10,5 +10,5 @@ import reactor.core.publisher.Mono;
 public interface TestController {
 
     @GetMapping(value = "/test")
-    public String getAccounts();
+    public Mono getAccounts();
 }

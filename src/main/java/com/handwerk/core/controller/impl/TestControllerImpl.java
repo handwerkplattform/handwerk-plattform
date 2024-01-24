@@ -8,7 +8,7 @@ import reactor.core.publisher.Mono;
 public class TestControllerImpl implements TestController {
 
     @Override
-    public String getAccounts() {
+    public Mono<Object> getAccounts() {
         System.out.println("Test controller OK");
         return null;
     }
